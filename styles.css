@@ -1,0 +1,77 @@
+/*tabs: 
+#2a324b
+links:
+#58699D
+body:
+#E1E5EE
+background-color innhold:
+#fff
+*/
+
+body {
+    background-color: #E1E5EE;
+    display: flex;    
+    align-items: center; 
+    justify-content: flex-start; 
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+
+main {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.faner { 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;       
+    display: flex;       
+    margin-top: 20px;
+    
+}
+
+
+.faneKlikk {
+    background-color: #2a324b; 
+    color: #fff; 
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 20px 60px;      
+    text-align: center;    
+}
+
+
+#innhold {    
+    background-color: #fff;    
+    width: 100%;
+    padding: 80px 0 80px 0;
+}
+
+#innhold h2,
+#innhold p {
+    padding: 0 70px 0 65px;
+}
+
+#innhold ul {
+    padding: 0 70px 0 100px;
+}
+
+#innhold h2 {
+    color: #2a324b;
+    font-weight: bold;
+}
+
+.faneKlikk.active {
+    background-color: #fff; 
+    color: #2a324b; 
+}
+    
+    
